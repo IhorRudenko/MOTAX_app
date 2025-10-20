@@ -2182,7 +2182,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   align-items: center;
   gap: 0.625rem;
 }
-.product__details-bottom-item img {
+.product__details-bottom-item img,
+.product__details-bottom-item picture {
   width: 2.8125rem;
   height: 2.8125rem;
   flex: 0 0 2.8125rem;
