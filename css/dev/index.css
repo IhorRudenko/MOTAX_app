@@ -1289,7 +1289,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
 .intro__descr-text {
   background-color: #F4F4F4;
-  padding: 0.625rem 1.5625rem 0.625rem 2.5rem;
+  padding: 0.375rem 1.5625rem 0.375rem 2.5rem;
   transform: skew(-8deg, 0deg);
   margin-left: -1.5625rem;
   font-family: "a_RubricaXtCn";
@@ -2820,7 +2820,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   pointer-events: none;
 }
 [data-fls-popup][data-fls-popup-active] {
-  z-index: 150;
+  z-index: 999;
   visibility: visible;
   overflow: auto;
   pointer-events: auto;
@@ -3666,6 +3666,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   }
   .product__bottom-item--2 {
     padding: 0;
+  }
+  .delivery__input {
+    text-align: center;
+  }
+  .delivery__input::placeholder {
+    text-align: center;
   }
   .shop-navigation__title {
     font-size: 1.0625rem;
