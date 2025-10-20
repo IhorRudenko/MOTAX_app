@@ -76,7 +76,7 @@ h6 {
 @font-face {font-family: Montserrat;font-display: swap;src: url("../assets/fonts/Montserrat-Bold.woff2") format("woff2");font-weight: 700;font-style: normal;}
 @font-face {font-family: a_RubricaXtCn;font-display: swap;src: url("../assets/fonts/a_RubricaXtCn-Italic.woff2") format("woff2");font-weight: 400;font-style: italic;}
 body {
-  min-width: 23.4375rem;
+  min-width: 22.5rem;
   color: #2E2828;
   font-family: "Montserrat";
   font-size: 1rem;
