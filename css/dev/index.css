@@ -1092,7 +1092,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 .footer__social-icon {
-  width: 100%;
+  width: 0.9375rem;
+  height: 0.9375rem;
+  flex: 0 0 0.9375rem;
 }
 
 .footer__contacts-box {
@@ -1185,7 +1187,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   left: 0rem;
   top: 0rem;
 }.intro {
-  background-image: url(./assets/img/intro/intro-bg.webp);
+  background-image: url(../assets/img/intro/intro-bg.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1196,7 +1198,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 .intro-2 {
-  background-image: url(./assets/img/intro-2/intro-2-bg.webp);
+  background-image: url(../assets/img/intro-2/intro-2-bg.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1546,7 +1548,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   flex: 0 0 0.75rem;
   top: 0.125rem;
   left: 0.125rem;
-  background-image: url(./assets/img/icons/check.svg);
+  background-image: url(../assets/img/icons/check.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1856,7 +1858,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   max-width: 24.0625rem;
   height: 4.375rem;
   border-radius: 0.375rem;
-  background-image: url(./assets/img/category/btn-not-active-bg.webp);
+  background-image: url(../assets/img/category/btn-not-active-bg.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1864,7 +1866,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   overflow: hidden;
 }
 .category__item:hover {
-  background-image: url(./assets/img/category/btn-active-bg.webp);
+  background-image: url(../assets/img/category/btn-active-bg.webp);
   transition: all 0.1s ease-in-out;
 }
 
@@ -1911,7 +1913,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   right: 0;
   width: 0.75rem;
   height: 0.75rem;
-  background-image: url(./assets/img/icons/arrow.svg);
+  background-image: url(../assets/img/icons/arrow.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -2063,7 +2065,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 .feedback-swiper__prev,
 .feedback-yandex-swiper__prev {
   margin-right: 1.875rem;
-  background-image: url(./assets/img/icons/slider-arrow--prev.svg);
+  background-image: url(../assets/img/icons/slider-arrow--prev.svg);
 }
 
 .thumbs-swiper__next,
@@ -2071,7 +2073,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 .thumbs-swiper__next-3,
 .feedback-swiper__next,
 .feedback-yandex-swiper__next {
-  background-image: url(./assets/img/icons/slider-arrow--next.svg);
+  background-image: url(../assets/img/icons/slider-arrow--next.svg);
 }
 
 .feedback-yandex-swiper__next {
@@ -2300,7 +2302,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 .delivery__block {
-  background-image: url(./assets/img/delivery/delivery-bg.webp);
+  background-image: url(../assets/img/delivery/delivery-bg.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -3002,11 +3004,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     max-width: 16.875rem;
   }
   .intro {
-    background-image: url(./assets/img/intro/intro-bg--tablet.webp);
+    background-image: url(../assets/img/intro/intro-bg--tablet.webp);
     background-position: right;
   }
   .intro-2 {
-    background-image: url(./assets/img/intro-2/intro-2-bg--tablet.webp);
+    background-image: url(../assets/img/intro-2/intro-2-bg--tablet.webp);
     background-position: right;
   }
   .intro__title .intro__title-span--1 {
@@ -3103,12 +3105,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
 @media (max-width: 61.99875em) {
   .intro {
-    background-image: url(./assets/img/intro/intro-bg--mobile.webp);
+    background-image: url(../assets/img/intro/intro-bg--mobile.webp);
     height: 100dvh;
     padding-top: 3.75rem;
   }
   .intro-2 {
-    background-image: url(./assets/img/intro-2/intro-2-bg--tablet.webp);
+    background-image: url(../assets/img/intro-2/intro-2-bg--tablet.webp);
     height: 100dvh;
     padding-top: 3.75rem;
   }
@@ -3546,6 +3548,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     height: 3.3125rem;
     flex: 0 0 3.3125rem;
     padding: 0.75rem;
+  }
+  .footer__social-icon {
+    width: 1.875rem;
+    height: 1.875rem;
+    flex: 0 0 1.875rem;
   }
   .footer__contacts-box {
     text-align: center;
