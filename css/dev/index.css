@@ -106,6 +106,7 @@ html {
   display: flex;
   flex-direction: column;
   overflow: clip;
+  padding-bottom: 88px;
 }
 .wrapper > main {
   flex: 1 1 auto;
@@ -3161,7 +3162,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     display: none;
   }
   .intro__form-body {
-    display: none;
+    /* display: none; */
   }
   .intro__bottom-item-text .intro__bottom-span--2 {
     padding-right: 0;
