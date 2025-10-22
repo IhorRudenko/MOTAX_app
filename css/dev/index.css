@@ -1267,10 +1267,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   z-index: -1;
 }
 .intro__title .intro__title-span--1 {
-  padding: 1.25rem 1.25rem 0.625rem 0.625rem;
+  padding: 1.25rem 1.25rem 0.375rem 0.625rem;
 }
 .intro__title .intro__title-span--2 {
-  padding: 0.625rem 1.25rem 1.25rem 0.625rem;
+  padding: 0.375rem 1.25rem 1.25rem 0.625rem;
 }
 
 .intro__descr {
@@ -3012,8 +3012,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     max-width: 16.875rem;
   }
   .intro {
-    background-image: url(../assets/img/intro/intro-bg--tablet.webp);
-    background-position: right;
+    background-position: center;
     min-height: 63.4375rem;
   }
   .intro-2 {
@@ -3027,7 +3026,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     padding: 0.9375rem 1.25rem 0.625rem 0.625rem;
   }
   .intro__title .intro__title-span--2 {
-    padding: 0.625rem 1.25rem 0.9375rem 0.625rem;
+    padding: 0.375rem 1.25rem 0.9375rem 0.625rem;
   }
   .form-row {
     gap: 0.625rem;
@@ -3140,10 +3139,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     margin: 3.125rem 0 0;
   }
   .intro__title .intro__title-span--1 {
-    padding: 0.625rem 1.25rem 0.625rem 0.625rem;
+    padding: 0.625rem 1.25rem 0.375rem 0.625rem;
   }
   .intro__title .intro__title-span--2 {
-    padding: 0.625rem 1.25rem 0.625rem 0.625rem;
+    padding: 0.375rem 1.25rem 0.625rem 0.625rem;
   }
   .intro__descr {
     order: 2;
@@ -3893,7 +3892,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
 @media (min-width: 29.99875em) and (max-width: 90em) {
   .intro__title {
-    font-size: clamp( 2.6875rem , 0.90636132580625rem  +  5.9373763047vw , 6.25rem );
+    font-size: clamp( 2.6875rem , 1.53132226411875rem  +  3.8540863732vw , 5rem );
   }
   .product__block-form--text {
     font-size: clamp( 2.6875rem , 2.0937871086rem  +  1.9791254349vw , 3.875rem );
@@ -4062,7 +4061,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 
 @media (min-width: 90em) {
   .intro__title {
-    font-size: 6.25rem;
+    font-size: 5rem;
   }
   .product__bottom-item {
     gap: 1.25rem;
