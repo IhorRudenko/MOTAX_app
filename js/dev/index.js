@@ -8266,3 +8266,25 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+document.addEventListener("DOMContentLoaded", () => {
+  const bar = document.querySelector(".intro-call");
+  if (!bar) return;
+  const mq = window.matchMedia("(max-width: 575.98px)");
+  let ticking = false;
+  const apply = () => {
+    const shouldShow = mq.matches && window.scrollY > 0;
+    bar.classList.toggle("--visible", shouldShow);
+    ticking = false;
+  };
+  const onScroll2 = () => {
+    if (!ticking) {
+      ticking = true;
+      requestAnimationFrame(apply);
+    }
+  };
+  apply();
+  window.addEventListener("scroll", onScroll2, { passive: true });
+  if (mq.addEventListener) mq.addEventListener("change", apply);
+  else if (mq.addListener) mq.addListener(apply);
+  window.addEventListener("resize", apply);
+});
