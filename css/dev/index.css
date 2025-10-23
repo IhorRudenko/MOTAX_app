@@ -4651,7 +4651,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 @media (max-width: 29.99875em) {
   .intro__2-cicle {
     width: 90%;
-    max-width: 235px;
+    max-height: 235px;
   }
 }
 
