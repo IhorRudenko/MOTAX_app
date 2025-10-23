@@ -4648,6 +4648,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
     bottom: 0;
   }
 }
+@media (max-width: 29.99875em) {
+  .intro__2-cicle {
+    width: 90%;
+    max-width: 235px;
+  }
+}
 
 @media (max-width: 61.99875em) {
   .intro__title-2 {
