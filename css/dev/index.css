@@ -4650,8 +4650,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 @media (max-width: 29.99875em) {
   .intro__2-cicle {
-    width: 90%;
-    max-height: 235px;
+    width: 95%;
+    max-height: 250px;
   }
 }
 
@@ -4689,8 +4689,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 @media (max-width: 29.99875em) {
   .summer-people {
-    height: 70%;
-    bottom: 80px;
+    height: 75%;
+    bottom: 65px;
   }
 }
 
