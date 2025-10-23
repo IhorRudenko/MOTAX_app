@@ -4642,8 +4642,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 @media (max-width: 61.99875em) {
   .intro__2-cicle {
-    position: static;
+    position: absolute;
     z-index: 2;
+    left: 0;
+    bottom: 0;
   }
 }
 
