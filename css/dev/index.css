@@ -1492,20 +1492,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
   overflow: hidden;
   position: relative;
 }
-.btn::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 3.125rem;
-  height: 3.125rem;
-  background: #fff;
-  transition: 0.1s;
-  transform: skew(-15deg);
-  animation: animate 5s linear infinite;
-  filter: blur(0.6rem);
-  opacity: 0.8;
-}
 @keyframes animate {
   0% {
     left: -9.375rem;
@@ -4057,6 +4043,20 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item:not(.lg-zoomable).lg-co
 }
 
 @media (min-width: 47.99875em) {
+  .btn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 3.125rem;
+    height: 3.125rem;
+    background: #fff;
+    transition: 0.1s;
+    transform: skew(-15deg);
+    animation: animate 5s linear infinite;
+    filter: blur(0.6rem);
+    opacity: 0.8;
+  }
   .shops__container {
     padding-right: 0;
   }
